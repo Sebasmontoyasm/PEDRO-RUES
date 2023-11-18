@@ -1,0 +1,77 @@
+{
+  "name": "PEDRO-CACIOPEA",
+  "projectId": "f1579797-e8be-45ba-85b5-fd99e9147af8",
+  "description": "Proceso para automatizar recordatorio de citas para IPS",
+  "main": "PEDRO-PLANTILLA.xaml",
+  "dependencies": {
+    "GoogleSpreadsheet.Activities": "[1.0.7495.12930]",
+    "UiPath.Cryptography.Activities": "1.2.1",
+    "UiPath.Database.Activities": "[1.5.0]",
+    "UiPath.Excel.Activities": "[2.12.0-preview]",
+    "UiPath.GSuite.Activities": "[1.14.1-preview]",
+    "UiPath.Mail.Activities": "[1.13.1-preview]",
+    "UiPath.System.Activities": "[21.12.0-preview]",
+    "UiPath.UIAutomation.Activities": "[21.12.0-preview]",
+    "UiPath.WebAPI.Activities": "1.9.3-preview",
+    "UiPathTeam.Excel.Extensions.Activities": "[1.0.7107.42453]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.37",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "PEDRO-HAFER.xaml",
+      "uniqueId": "1232925f-f1e6-48ff-9077-bc64c03dfda3",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PEDRO-PLANTILLA.xaml",
+      "uniqueId": "fd3f89b1-c289-4618-a188-fd618d6dd5cd",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
